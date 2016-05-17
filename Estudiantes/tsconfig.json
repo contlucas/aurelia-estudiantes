@@ -2,7 +2,7 @@
   "compilerOptions": {
     "experimentalDecorators": true,
     "noEmitOnError": true,
-    "noImplicitAny": false,
+    "noImplicitAny": true,
     "removeComments": false,
     "sourceMap": true,
     "target": "es6"
