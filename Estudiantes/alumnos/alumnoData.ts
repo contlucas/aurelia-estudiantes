@@ -5,7 +5,7 @@ import {HttpClient} from "aurelia-http-client";
 export class AlumnoData {
     private http: HttpClient;
 
-    constructor(httpClient) {
+    constructor(httpClient: HttpClient) {
         this.http = httpClient;
     }
 

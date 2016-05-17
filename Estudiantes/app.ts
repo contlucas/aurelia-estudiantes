@@ -1,7 +1,7 @@
 ﻿export class App {
     public router: any;
 
-    configureRouter(config, router) {
+    configureRouter(config: any, router: any) {
         config.map([
             {
                 route: "",

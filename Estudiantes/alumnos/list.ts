@@ -6,7 +6,7 @@ export class List {
     private alumnoData: AlumnoData;
     public alumnos: AlumnoData[];
 
-    constructor(alumnoData) {
+    constructor(alumnoData: AlumnoData) {
         this.alumnoData = alumnoData;
     }
 
